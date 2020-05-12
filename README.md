@@ -40,9 +40,9 @@ Num of cache misses:6
 - Answer the following question:  
 
 What are the best k hashes and m bits values to store one million n keys (E.g. e52f43cd2c23bb2e6296153748382764) suppose we use the same MD5 hash key from pickle_hash.py and explain why?  
-k is 4 and m is 6235224.
-n = 1million p = 0.05 
-use the  formula to calculate Bit array size:m = int(- (n * ln(p)) / (ln(2)^2) )    
+k is 4 and m is 6235224.  
+n = 1million p = 0.05   
+use the  formula to calculate Bit array size:m = int(- (n * ln(p)) / (ln(2)^2) )      
 =>     m =  6235224        
 use the formula k = int((m/n)ln(2) )    
 =>    num_hash k = 4
