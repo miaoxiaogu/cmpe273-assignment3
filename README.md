@@ -1,5 +1,5 @@
 # cmpe273-assignment3
-- Result of test_lru_cache.py
+- Result of test_lru_cache.py  
 cache hit
 cache hit
 cache hit
@@ -23,7 +23,7 @@ cache hit
 Num of function calls:10
 Num of cache misses:6
 
-- Result of test_bloom_filter.py
+- Result of test_bloom_filter.py  
 'accessable' is probably present!
 'bloom' is probably present!
 'twitter' is a false positive!
@@ -37,9 +37,9 @@ Num of cache misses:6
 'abounds' is probably present!
 'abound' is probably present!
 
-- Answer the following question:
+- Answer the following question:  
 
-What are the best k hashes and m bits values to store one million n keys (E.g. e52f43cd2c23bb2e6296153748382764) suppose we use the same MD5 hash key from pickle_hash.py and explain why?
+What are the best k hashes and m bits values to store one million n keys (E.g. e52f43cd2c23bb2e6296153748382764) suppose we use the same MD5 hash key from pickle_hash.py and explain why?  
 k is 4 and m is 6235224.
 n = 1million p = 0.05 
 use the  formula to calculate Bit array size:m = int(- (n * ln(p)) / (ln(2)^2) )    
